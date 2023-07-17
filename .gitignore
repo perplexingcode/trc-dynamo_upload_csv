@@ -1,0 +1,20 @@
+# package directories
+node_modules
+jspm_packages
+archive/*
+
+# Serverless directories
+.serverless
+input/*
+!input/test.csv
+
+# 
+output/*
+!output/gitkeep
+
+input/*
+!input/gitkeep
+!input/test.csv
+
+CONFIG.js
+upload_log.txt
